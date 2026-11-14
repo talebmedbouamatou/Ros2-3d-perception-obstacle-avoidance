@@ -146,5 +146,5 @@ Some mesh files are not included because they exceed GitHub's **25 MB limit for 
 
 For more information about this project, feel free to contact me:
 
-- **Email:** [your email address](mailto:talebmedbouamatou4.com)
+- **Email:** [talebmedbouamatou4.com](mailto:talebmedbouamatou4.com)
 - **Portfolio:** [Visit my portfolio](https://talebmedbouamatou.github.io)
