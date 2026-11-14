@@ -141,3 +141,10 @@ The repository does not currently include ROS 2 launch files for starting the co
 ## Large mesh files
 
 Some mesh files are not included because they exceed GitHub's **25 MB limit for uploading files through the website**. See the README inside `Simulation/robot_description/meshes/` for details about those files.
+
+## Contact
+
+For more information about this project, feel free to contact me:
+
+- **Email:** [your email address](mailto:your-email@example.com)
+- **Portfolio:** [Visit my portfolio](https://talebmedbouamatou.github.io)
