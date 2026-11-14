@@ -11,7 +11,7 @@ This project develops a local obstacle-avoidance system for a mobile robot. It c
 The project has two implementations:
 
 - A **Gazebo simulation** for testing the robot and obstacle-avoidance behaviour in a virtual environment.
-- A **real-robot implementation** using an HP60C depth camera, ROS 2, a Raspberry Pi, and an Arduino Mega-based mobile robot.
+- A **real-robot implementation** using an HP60C depth camera, ROS 2, a Raspberry Pi, Docker and an Arduino Mega-based mobile robot.
 
 The system is designed to select a safe direction when possible and stop the robot when no safe direction is available.
 
