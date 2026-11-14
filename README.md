@@ -1,6 +1,6 @@
 # ROS 2 3D Perception and Local Obstacle Avoidance for a Mobile Robot
 
-This project develops a local obstacle-avoidance system for a mobile robot. It combines **3D perception from depth-camera images** with ROS 2 nodes that detect obstacles, assess the available space, and determine how the robot should react.
+This project develops a local obstacle-avoidance system for a mobile robot. It combines **3D perception from depth-camera images** with ROS 2 nodes that detect obstacles, assess the available space, and determine how the robot should react all using a Raspberry Pi 5 board.
 
 The project has two implementations:
 
