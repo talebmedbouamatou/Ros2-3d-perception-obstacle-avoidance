@@ -1,4 +1,10 @@
-# ROS 2 3D Perception and Local Obstacle Avoidance for a Mobile Robot
+# 🤖 ROS 2 3D Perception and Local Obstacle Avoidance for a Mobile Robot
+
+![ROS 2 Humble](https://img.shields.io/badge/ROS%202-Humble-22314E?logo=ros&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Gazebo](https://img.shields.io/badge/Gazebo-Simulation-F58113)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-5-A22846?logo=raspberrypi&logoColor=white)
+![Arduino Mega](https://img.shields.io/badge/Arduino-Mega-00878F?logo=arduino&logoColor=white)
 
 This project develops a local obstacle-avoidance system for a mobile robot. It combines **3D perception from depth-camera images** with ROS 2 nodes that detect obstacles, assess the available space, and determine how the robot should react, all using a Raspberry Pi 5 board.
 
@@ -9,7 +15,7 @@ The project has two implementations:
 
 The system is designed to select a safe direction when possible and stop the robot when no safe direction is available.
 
-## Project objectives
+## 🎯 Project objectives
 
 - Read depth images from the camera.
 - Process depth data to identify nearby obstacles.
@@ -18,7 +24,7 @@ The system is designed to select a safe direction when possible and stop the rob
 - Stop the robot when the available space is not considered safe.
 - Compare the system's behaviour in simulation and on the real robot.
 
-## How the system works
+## ⚙️ How the system works
 
 The software is divided into ROS 2 nodes, with each node handling part of the process:
 
@@ -45,7 +51,7 @@ Arduino interface and mobile robot
 
 The camera, perception, and avoidance components communicate through ROS 2 topics. The real-robot setup also includes an Arduino Mega interface for controlling the robot's motors.
 
-## Simulation
+## 🧪 Simulation
 
 The `Simulation/` directory contains the files for testing the system in Gazebo:
 
@@ -57,7 +63,7 @@ The `Simulation/` directory contains the files for testing the system in Gazebo:
 
 The simulation makes it possible to observe the robot's response to obstacles in a controlled environment before testing on the physical robot.
 
-## Real-robot implementation
+## 🤖 Real-robot implementation
 
 The `real_robot/` directory contains the code and camera information for the physical robot:
 
@@ -69,7 +75,7 @@ The `real_robot/` directory contains the code and camera information for the phy
 
 The real mobile robot uses an Arduino Mega-based control system, four motors, and an L298N motor driver. A Raspberry Pi is used as the onboard computer for the ROS 2 components.
 
-## HP60C depth camera
+## 📷 HP60C depth camera
 
 The real-robot implementation uses an **HP60C depth camera**. Its ROS 2 driver publishes depth images on:
 
@@ -97,7 +103,7 @@ List the available ROS 2 topics with:
 ros2 topic list
 ```
 
-## Repository structure
+## 📂 Repository structure
 
 ```text
 .
@@ -122,7 +128,7 @@ ros2 topic list
 └── README.md
 ```
 
-## Main technologies and hardware
+## 🛠️ Main technologies and hardware
 
 - ROS 2 Humble
 - Python
@@ -134,15 +140,15 @@ ros2 topic list
 - L298N motor driver
 - Four-motor mobile robot
 
-## Running the project
+## 🚀 Running the project
 
 The repository does not currently include ROS 2 launch files for starting the complete system in one command. The camera driver can be started using the command shown above. The other nodes should be run according to their ROS 2 workspace and package setup.
 
-## Large mesh files
+## 📦 Large mesh files
 
 Some mesh files are not included because they exceed GitHub's **25 MB limit for uploading files through the website**. See the README inside `Simulation/robot_description/meshes/` for details about those files.
 
-## Contact
+## 📬 Contact
 
 For more information about this project, feel free to contact me:
 
